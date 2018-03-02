@@ -70,12 +70,12 @@ echo "<hr>";
 
 foreach ($pessoaa as $pessoa) {
 
-	echo "Meu Nome é: " . $pessoaa["nome"];
+	echo "Meu Nome é: " . ($pessoa["nome"]);
 	echo "<br>";
-	echo "Tenho " .($pessoaa['idade']) . " anos";
+	echo "Tenho " .($pessoa['idade']) . " anos";
 	echo "<br>";
-	echo "Meu email é: " . ($pessoaa['email']);
-}
+	echo "Meu email é: " . ($pessoa['email']);
+};
 	
 
 
